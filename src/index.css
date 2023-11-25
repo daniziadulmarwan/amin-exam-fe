@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.card {
+  @apply bg-white shadow-xl rounded-3xl border-t border-slate-50 overflow-hidden pb-5;
+}
+
+.nav-link > a.active {
+  @apply bg-gradient-to-r from-primary via-green-500 to-indigo-400 inline-block text-transparent bg-clip-text font-semibold;
+}
