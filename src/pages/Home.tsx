@@ -28,18 +28,18 @@ function Home() {
       <Navbar />
       <Hero />
       <section className="mt-40 container mx-auto">
-        <h5 className="text-third font-lexend text-6xl font-bold text-center">
+        <h5 className="text-third font-lexend text-4xl md:text-6xl font-bold text-center">
           Our Explore Exams
         </h5>
-        <div className="flex justify-center">
-          <p className="mt-8 text-[22px] text-second text-center w-[684px]">
+        <div className="flex justify-center mx-8">
+          <p className="mt-8 text-md md:text-[22px] text-second text-center w-[684px]">
             Life may not be perfect, but I’m thankful for everything Allah
             blessed me with
           </p>
         </div>
 
         <div className="mt-16">
-          <div className="grid grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mx-3 md:mx-0">
             {classes.map((item: ClassType) => {
               return (
                 <div className="card" key={item.id}>
@@ -72,7 +72,7 @@ function Home() {
       </section>
 
       <footer className="pt-32 pb-10 text-center">
-        <p className="text-sm text-second">
+        <p className="text-sm text-second mx-20 md:mx-0">
           Copyright © Amin Exam 2023, Made with ❤️ by{" "}
           <a href="https://daniziadulmarwan.github.io">Dani Ziadul Marwan</a>
         </p>
