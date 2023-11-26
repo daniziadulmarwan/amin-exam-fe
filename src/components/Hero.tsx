@@ -3,7 +3,7 @@ import CorakSvg from "/corak.svg";
 const Hero = () => {
   return (
     <div>
-      <div className="bg-[#F9F7FF] h-[480px] md:h-[875px] relative overflow-hidden">
+      <div className="bg-[#F9F7FF] h-[500px] md:h-[875px] relative overflow-hidden">
         <img
           src={CorakSvg}
           alt="Corak Svg"
