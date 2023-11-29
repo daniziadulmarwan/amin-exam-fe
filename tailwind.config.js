@@ -11,6 +11,7 @@ export default {
       },
       fontFamily: {
         lexend: "Lexend",
+        smooch: "Smooch Sans",
       },
     },
   },

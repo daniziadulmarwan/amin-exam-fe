@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -59,9 +59,12 @@ const Navbar = () => {
           </ul>
 
           <div className="flex gap-2">
-            <button className="py-1 lg:py-3 px-3 lg:px-12 border border-primary rounded-lg hover:bg-primary hover:text-white transition-all ease-in-out duration-100">
+            <Link
+              to="/signin"
+              className="py-1 lg:py-3 px-3 lg:px-12 border border-primary rounded-lg hover:bg-primary hover:text-white transition-all ease-in-out duration-100"
+            >
               Log in
-            </button>
+            </Link>
             <button className="py-1 lg:py-3 px-3 lg:px-12 border border-primary rounded-lg hover:bg-primary hover:text-white transition-all ease-in-out duration-100">
               Sign Up
             </button>
