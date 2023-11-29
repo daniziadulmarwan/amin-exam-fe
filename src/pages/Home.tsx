@@ -72,9 +72,14 @@ function Home() {
       </section>
 
       <footer className="pt-32 pb-10 text-center">
-        <p className="text-sm text-second mx-20 md:mx-0">
+        <p className="text-sm text-second mx-20 md:mx-0 font-light">
           Copyright © Amin Exam 2023, Made with ❤️ by{" "}
-          <a href="https://daniziadulmarwan.github.io">Dani Ziadul Marwan</a>
+          <a
+            href="https://daniziadulmarwan.github.io"
+            className="underline text-slate-900"
+          >
+            Dani Ziadul Marwan
+          </a>
         </p>
       </footer>
     </main>
